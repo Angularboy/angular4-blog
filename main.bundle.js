@@ -107,9 +107,11 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 var routeConfig = [
-    { path: '', redirectTo: '/angular4-blog', pathMatch: 'full' },
-    { path: 'angular4-blog', component: __WEBPACK_IMPORTED_MODULE_10__home_home_component__["a" /* HomeComponent */] },
-    { path: 'angular4-blog/product/:productId', component: __WEBPACK_IMPORTED_MODULE_9__product_detail_product_detail_component__["a" /* ProductDetailComponent */] }
+    // {path: '', redirectTo: '/angular4-blog', pathMatch: 'full'},
+    // {path: 'angular4-blog', component: HomeComponent},
+    // {path: 'angular4-blog/product/:productId', component: ProductDetailComponent}
+    { path: '', component: __WEBPACK_IMPORTED_MODULE_10__home_home_component__["a" /* HomeComponent */] },
+    { path: 'product/:productId', component: __WEBPACK_IMPORTED_MODULE_9__product_detail_product_detail_component__["a" /* ProductDetailComponent */] }
 ];
 var AppModule = (function () {
     function AppModule() {
