@@ -11,7 +11,7 @@ let timer; let
 function throttle(func, wait = 500, immediate = true) {
     if (immediate) {
         if (!flag) {
-            flag = true
+            flag = true;
             // 如果是立即执行，则在wait毫秒内开始时执行
             typeof func === 'function' && func()
             timer = setTimeout(() => {
